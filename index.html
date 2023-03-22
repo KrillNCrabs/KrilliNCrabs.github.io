@@ -100,81 +100,8 @@ function rand() {
     } else if (randomizer == 36) {
         document.getElementById("response").innerHTML = "On God?"
     }
-
-    overrideactivate()
-    overrideactivate2()
-    overrideactivate3()
 }
 
-function overrideactivate() {
-    if (scam == 1) {
-        let randomizer1 = Math.floor(Math.random()*6)
-       
-        if (randomizer1 == 0){
-        document.getElementById("response").innerHTML = "Defintely"
-    } else if(randomizer1 == 1){
-    document.getElementById("response").innerHTML = "Yes"
-    } else if(randomizer1 == 2){
-    document.getElementById("response").innerHTML = "Always"
-    } else if(randomizer1 == 3){
-    document.getElementById("response").innerHTML = "Absolutely"
-    } else if(randomizer1 == 4){
-    document.getElementById("response").innerHTML = "Signs Point To Yes"
-    } else if(randomizer1 == 5){
-    document.getElementById("response").innerHTML = "Positive"
-    }
-    
-    }
-}
-
-function overrideactivate2() {
-    if (scam == 2) {
-        let randomizer2 = Math.floor(Math.random()*6)
-       
-        if (randomizer2 == 0){
-        document.getElementById("response").innerHTML = "No"
-    } else if(randomizer2 == 1){
-    document.getElementById("response").innerHTML = "Never"
-    } else if(randomizer2 == 2){
-    document.getElementById("response").innerHTML = "Defintely Not"
-    } else if(randomizer2 == 3){
-    document.getElementById("response").innerHTML = "Absolutely Not"
-    } else if(randomizer2 == 4){
-    document.getElementById("response").innerHTML = "Not At All"
-    } else if(randomizer2 == 5){
-    document.getElementById("response").innerHTML = "Very Doubtful"
-    }
-    
-    }
-}
-
-    function overrideactivate3() {
-    if (scam == 3) {
-        let randomizer2 = Math.floor(Math.random()*6)
-        if (randomizer2 == 0){
-        document.getElementById("response").innerHTML = "Maybe"
-    } else if(randomizer2 == 1){
-    document.getElementById("response").innerHTML = "Possibly"
-    } else if(randomizer2 == 2){
-    document.getElementById("response").innerHTML = "Try Again"
-    } else if(randomizer2 == 3){
-    document.getElementById("response").innerHTML = "Reply Is Hazy, Try Again"
-    } else if(randomizer2 == 4){
-    document.getElementById("response").innerHTML = "Perhaps"
-    } else if(randomizer2 == 5){
-    document.getElementById("response").innerHTML = "Roll Again"
-    }
-    
-    }
-}
-    
-function Override() {
-    scam = scam + 1
-    console.log(scam)
-    if (scam>=4){
-    scam = 0
-    }
-}
     </script>
     </body>
 </html>
