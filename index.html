@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <body onkeypress="Override()" style="overflow:hidden">
+      <div id="shaker" title="Click For Answer" style="margin-left:auto;margin-right:auto;width:500px;height:500px;user-select:none;padding-top:100px">
+        <!--End Div-->
+        <div style="background:black;width:500px;height:500px;border-radius:100%;margin-left:auto;margin-right:auto;cursor:pointer" onclick="rand()">
+          <!--BlackShell-->
+          <div style="width:500px;height:500px;padding-top:75px">
+            <!--WhiteInsideContainer-->
+            <div style="background:white;width:350px;height:350px;border-radius:100%;margin-left:auto;margin-right:auto">
+              <!--WhiteInside-->
+              <img style="padding-left:90px;padding-top:60px" src="8.png"></img>
+              <!--8Inside-->
+            </div>
+            <!--WhiteInside-->
+          </div>
+          <!--WhiteInsideContainer-->
+        </div>
+        <!--BlackShell-->
+      </div>
+      <!--End Div-->
+      <h2 style="text-align:center;font-family:Verdana, sans-serif;user-select:none" id="response"></h2>
+<script>
+var scam = 0
+
+function rand() {
+    let randomizer = Math.floor(Math.random() * 37)
+    if (randomizer == 0) {
+        document.getElementById("response").innerHTML = "Yes"
+    } else if (randomizer == 1) {
+        document.getElementById("response").innerHTML = "No"
+    } else if (randomizer == 2) {
+        document.getElementById("response").innerHTML = "No U"
+    } else if (randomizer == 3) {
+        document.getElementById("response").innerHTML = "Probably"
+    } else if (randomizer == 4) {
+        document.getElementById("response").innerHTML = "Probably Not"
+    } else if (randomizer == 5) {
+        document.getElementById("response").innerHTML = "Never"
+    } else if (randomizer == 6) {
+        document.getElementById("response").innerHTML = "Always"
+    } else if (randomizer == 7) {
+        document.getElementById("response").innerHTML = "Ur Mom"
+    } else if (randomizer == 8) {
+        document.getElementById("response").innerHTML = "No Response"
+    } else if (randomizer == 9) {
+        document.getElementById("response").innerHTML = "Defintely"
+    } else if (randomizer == 10) {
+        document.getElementById("response").innerHTML = "On God"
+    } else if (randomizer == 11) {
+        document.getElementById("response").innerHTML = "Perhaps"
+    } else if (randomizer == 12) {
+        document.getElementById("response").innerHTML = "Maybe"
+    } else if (randomizer == 13) {
+        document.getElementById("response").innerHTML = "Defintely Not"
+    } else if (randomizer == 14) {
+        document.getElementById("response").innerHTML = "Roll Again"
+    } else if (randomizer == 15) {
+        document.getElementById("response").innerHTML = "Why?"
+    } else if (randomizer == 16) {
+        document.getElementById("response").innerHTML = "Try Again"
+    } else if (randomizer == 17) {
+        document.getElementById("response").innerHTML = "Most Likely Not"
+    } else if (randomizer == 18) {
+        document.getElementById("response").innerHTML = "Consult The Library Of Babel"
+    } else if (randomizer == 19) {
+        document.getElementById("response").innerHTML = "Reply Is Hazy, Try Again"
+    } else if (randomizer == 20) {
+        document.getElementById("response").innerHTML = "Concentrate And Ask Again"
+    } else if (randomizer == 21) {
+        document.getElementById("response").innerHTML = "It Is Certain"
+    } else if (randomizer == 22) {
+        document.getElementById("response").innerHTML = "Signs Point To Yes"
+    } else if (randomizer == 23) {
+        document.getElementById("response").innerHTML = "My Sources Say No"
+    } else if (randomizer == 24) {
+        document.getElementById("response").innerHTML = "By All Means"
+    } else if (randomizer == 25) {
+        document.getElementById("response").innerHTML = "Absolutely"
+    } else if (randomizer == 26) {
+        document.getElementById("response").innerHTML = "Of Course"
+    } else if (randomizer == 27) {
+        document.getElementById("response").innerHTML = "Negative"
+    } else if (randomizer == 28) {
+        document.getElementById("response").innerHTML = "Positive"
+    } else if (randomizer == 29) {
+        document.getElementById("response").innerHTML = "Yes, But Soon No"
+    } else if (randomizer == 30) {
+        document.getElementById("response").innerHTML = "No, But Soon Yes"
+    } else if (randomizer == 31) {
+        document.getElementById("response").innerHTML = "Don't Count On It"
+    } else if (randomizer == 32) {
+        document.getElementById("response").innerHTML = "Very Doubtful"
+    } else if (randomizer == 33) {
+        document.getElementById("response").innerHTML = "Not At All"
+    } else if (randomizer == 34) {
+        document.getElementById("response").innerHTML = "Your Answer Is Certain"
+    } else if (randomizer == 35) {
+        document.getElementById("response").innerHTML = "Your Answer Is Not Certain"
+    } else if (randomizer == 36) {
+        document.getElementById("response").innerHTML = "On God?"
+    }
+
+    overrideactivate()
+    overrideactivate2()
+    overrideactivate3()
+}
+
+function overrideactivate() {
+    if (scam == 1) {
+        let randomizer1 = Math.floor(Math.random()*6)
+       
+        if (randomizer1 == 0){
+        document.getElementById("response").innerHTML = "Defintely"
+    } else if(randomizer1 == 1){
+    document.getElementById("response").innerHTML = "Yes"
+    } else if(randomizer1 == 2){
+    document.getElementById("response").innerHTML = "Always"
+    } else if(randomizer1 == 3){
+    document.getElementById("response").innerHTML = "Absolutely"
+    } else if(randomizer1 == 4){
+    document.getElementById("response").innerHTML = "Signs Point To Yes"
+    } else if(randomizer1 == 5){
+    document.getElementById("response").innerHTML = "Positive"
+    }
+    
+    }
+}
+
+function overrideactivate2() {
+    if (scam == 2) {
+        let randomizer2 = Math.floor(Math.random()*6)
+       
+        if (randomizer2 == 0){
+        document.getElementById("response").innerHTML = "No"
+    } else if(randomizer2 == 1){
+    document.getElementById("response").innerHTML = "Never"
+    } else if(randomizer2 == 2){
+    document.getElementById("response").innerHTML = "Defintely Not"
+    } else if(randomizer2 == 3){
+    document.getElementById("response").innerHTML = "Absolutely Not"
+    } else if(randomizer2 == 4){
+    document.getElementById("response").innerHTML = "Not At All"
+    } else if(randomizer2 == 5){
+    document.getElementById("response").innerHTML = "Very Doubtful"
+    }
+    
+    }
+}
+
+    function overrideactivate3() {
+    if (scam == 3) {
+        let randomizer2 = Math.floor(Math.random()*6)
+        if (randomizer2 == 0){
+        document.getElementById("response").innerHTML = "Maybe"
+    } else if(randomizer2 == 1){
+    document.getElementById("response").innerHTML = "Possibly"
+    } else if(randomizer2 == 2){
+    document.getElementById("response").innerHTML = "Try Again"
+    } else if(randomizer2 == 3){
+    document.getElementById("response").innerHTML = "Reply Is Hazy, Try Again"
+    } else if(randomizer2 == 4){
+    document.getElementById("response").innerHTML = "Perhaps"
+    } else if(randomizer2 == 5){
+    document.getElementById("response").innerHTML = "Roll Again"
+    }
+    
+    }
+}
+    
+function Override() {
+    scam = scam + 1
+    console.log(scam)
+    if (scam>=4){
+    scam = 0
+    }
+}
+    </script>
+    </body>
+</html>
