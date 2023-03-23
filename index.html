@@ -1,66 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-  <style>
-    .noPaddingMargin {
-      padding: 0;
-      margin: 0;
-    }
+<!DOCTYPE html> <html lang="en">
+<style> .noPaddingMargin {
+padding: 0;
+margin: 0; }
+.centerItems { justify-content: center; align-items: center; display: flex;
+} body {
+overflow: hidden }
+.blackShell {
+margin-left: auto; margin-right: auto; background-color: black; width:37vw; height:37vw;
 
-    .centerItems {
-      justify-content: center;
-      align-items: center;
-      display: flex;
-    }
-
-    body {
-      overflow: hidden
-    }
-
-    .blackShell {
-      margin-left: auto;
-      margin-right: auto;
-      background-color: black;
-      width: 35vw;
-      height:35vw;
-      border-radius: 50%;
-      cursor: pointer
-    }
-
-    .whiteShell {
-      background-color: white;
-      width:26vw;
-      height:26vw;
-      border-radius: 50%;
-      position: relative
-    }
-
-    .eight {
-      font-size: 26vw;
-      user-select: none;
-      font-family: sans-serif
-    }
-
-    .response {
-      font-family: Verdana, sans-serif;
-      text-align: center;
-      font-size: 3.5vw;
-      padding-top: 0px;
-      user-select:none
-    }
-    .pd{
-      width:100vw;
-      height:7.5vh;
-    }
-
-  </style>
-  <body class="noPaddingMargin">
-    <div class="pd"></div>
-    <div class="blackShell centerItems" onclick="answer()" id="blackShell">
-      <div class="whiteShell centerItems noPaddingMargin" id="whiteShell">
-        <h1 class="eight noPaddingMargin" id="eight">8</h1>
-      </div>
-    </div>
-    <h1 class="response" id="responses"></h1>
-    <script src="responses.js"></script>
-  </body>
+ border-radius: 50%;
+cursor: pointer }
+.whiteShell { background-color: white; width:26vw; height:26vw; border-radius: 50%; position: relative
+} .eight {
+font-size: 26vw; user-select: none; font-family: sans-serif
+} .response {
+font-family: Verdana, sans-serif; text-align: center;
+font-size: 3.5vw;
+padding-top: 0px; user-select:none
+} .pd{
+width:100vw; height:1.5vw }
+</style>
+<body class="noPaddingMargin">
+<div class="pd"></div>
+<div class="blackShell centerItems" onclick="answer()" id="blackShell">
+<div class="whiteShell centerItems noPaddingMargin" id="whiteShell"> <h1 class="eight noPaddingMargin" id="eight">8</h1>
+</div>
+</div>
+<h1 class="response" id="responses"></h1> <script src="responses.js"></script>
+</body>  
 </html>
