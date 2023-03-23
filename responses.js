@@ -17,7 +17,8 @@ eight.style.fontSize = "45vw";
 }
 window.addEventListener("resize", detects);
 function detects() {
-let w = screen.width; let h = screen.height; 
+let w = screen.width;
+ let h = screen.height; 
 if (w > h) {
 outer.style.width = "37vw"; 
 outer.style.height = "37vw"; 
